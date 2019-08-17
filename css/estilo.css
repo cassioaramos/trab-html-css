@@ -1,0 +1,110 @@
+/*Limpar formatações padrão*/
+* {
+	margin: 0;
+	padding: 0;
+} 
+
+body {
+	font-size: 16px;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #901919;
+	text-align: justify;
+}
+
+#navegacao {
+	background: rgb(0, 0, 0);
+	border-bottom: 1px solid #d8d8d8;
+	height: 45px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+#area {
+	width: 900px;
+	margin: 0 auto;
+}
+#logo {
+	color: white;
+	float: left;
+}
+
+#menu {
+	float: right;
+	padding: 10px 0px;
+}
+
+#area-principal {
+	width: 900px;
+	margin: 55px auto 10px auto;
+}
+
+#anuncio {
+	background: #fa5050;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+h2 {
+	color: #020202;
+}
+
+/* ***********************Formatação do menu************ */
+a {
+	text-decoration: none;
+	padding: 5px 10px;
+}
+/*Links não visitados*/
+a:link {
+	color: white;
+}
+
+/*Links vistados*/
+a:visited {
+	color: white;
+}
+
+/*Links hover*/
+a:hover {
+	color: rgb(255, 255, 255);
+	
+	/* background: #b9c941; */
+	background: #901919;
+}
+
+
+
+
+/*Classes*/
+.vermelho {
+	color: #f32020;
+}
+.produto {
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+.data-anuncio {
+	font-size: 14px;
+	border-bottom: 1px solid #f4f4f4;
+	display: block;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.img-anuncio{
+	float: left;
+	margin:0 10px 5px 0;
+	width: 180px;
+}
+
+.contato {
+	padding-left: 5px;
+	display: block;
+	margin-top: 0px;
+	color: white;
+	font-weight: bold;
+}
+
